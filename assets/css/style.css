@@ -355,7 +355,7 @@ footer #copyright {
 
 @media screen and (max-width: 767px) {
   #index {
-    background-image: url(../img/sp_index_bg2.webp);
+    background-image: url(../img/sp_index_bg.webp);
   }
 }
 
@@ -374,6 +374,12 @@ footer #copyright {
   line-height: 2;
   font-weight: 700;
   letter-spacing: 0.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  #index main .copyWrap .copy {
+    color: #fff;
+  }
 }
 
 #index footer {
